@@ -1,0 +1,240 @@
+body{
+background-color:beige;
+background-image: url('snow.jpg');
+background-size:cover;
+font-family: 'Times New Roman', Times, serif;
+color:lightblue;
+font-weight:bolder;
+
+
+}
+.navbar{
+    height:10vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar{
+    width:50%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+::placeholder{
+    color:white;
+}
+.searchinput{
+    width:100%;
+    padding:10px;
+    border-radius: 25px;
+    border:white;
+    outline: none;
+    background-color:lightslategrey;
+    color:black;
+
+}
+.searchicon{
+    right:10px;
+    position: absolute;
+
+
+}
+.searchicon:hover{
+    cursor:pointer;
+}
+.main{
+    height:90vh;
+
+   
+
+}
+/* styling of the left part of the website */
+.leftdiv{
+    width:30%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+.leftchild{
+    height:40vh;
+    width:80%;
+    background-color:#282c34;
+    margin:auto;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    /* border: 2px solid gold; */
+    
+}
+.currenttemp{
+    padding: 12px;
+    font-size: larger;
+}
+
+#calender{
+    display:flex;
+    align-items: center;
+    gap:6px;
+}
+#clock{
+    display:flex;
+    align-items: center;
+    gap:6px;
+}
+#cityname{
+    font-size: xx-large;
+}
+#citytemp{
+    font-size: x-large;
+}
+#skydescription
+{
+    font-size: large;
+}
+#cloudimage{
+    display:flex;
+    align-items: center;
+    gap:5px;
+    margin:6px;
+    box-sizing: border-box;
+    
+    
+}
+.container{
+    padding:3px;
+    flex-direction: column;
+    gap:16px;
+    font-size: small;
+    text-align: center;
+    
+   
+}
+.divspace{
+    text-justify: distribute;
+}
+#haedingposition{
+    display:flex;
+    align-self: center;
+}
+/*styling the right part of the website */
+
+
+
+.rightdiv{
+    width:70%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    gap:18px;
+    text-align: center;
+
+}
+.rightrow{
+    height:27vh;
+    width:100%;
+    gap:3px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.metrics-of-row-one{
+    display:flex;
+    align-items: center;
+    gap:9px;
+    flex-direction: column;
+    background-color: #282c34;
+    padding:3%;
+    width:fit-content;
+    border-radius: 19px;
+}
+.rowone{
+    width:100%;
+
+}
+/* styling of aqi */
+.row2{
+    background-color:#282c34;
+    height:85%;
+    width:48%;
+    gap:2px;
+    border-radius: 18px;
+    padding: 4px;
+
+    
+}
+.rowtwo{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+    
+
+}
+.aqiposition{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:45px;
+    width:fit-content;
+    padding: 12px;
+}
+/*  styling the second box of the second row */
+
+.sunrisediv{
+    display:flex;
+    gap:14px;
+    align-items: center;
+
+
+}
+.sunrisedivtext{
+    display:flex;
+    flex-direction: column;
+    gap:2px;
+}
+.sunsetdiv{
+    display:flex;
+    gap:14px;
+    align-items: center;
+}
+.sunsetdivtext{
+   display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:2px;
+}
+.sunrise-and-set{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12px;
+}
+.temptoday{
+    background-color: #282c34;
+    padding:12px;
+    width:fit-content;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    
+}
+.thirdrow-main{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:35px;
+
+}
+.thirdrow-text{
+    padding: 2px;
+    margin:0%;
+}
+
