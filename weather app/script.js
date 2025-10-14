@@ -110,7 +110,7 @@ async function fetchaqidata(lat,lon) {
 
 
     async function nextFiveDays(lat, lon) {
-    const apiKey = "8ca451bd3fe32bcd7dfa776559106ba8";
+    const apiKey = "api key";
     const apiUrl = (`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`);
 
     try {
@@ -164,7 +164,7 @@ nextFiveDays(lat, lon);
 // function to fetch the data every 3 hrs
 
 async function displayTodayWeather(lat, lon) {
-  const apiKey = '8ca451bd3fe32bcd7dfa776559106ba8'; // Replace with your actual OpenWeatherMap API key
+  const apiKey = ''; // Replace with your actual OpenWeatherMap API key
   const url = (`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`);
 
   try {
@@ -205,4 +205,5 @@ async function displayTodayWeather(lat, lon) {
 displayTodayWeather(lat, lon)
 
 }
+
 
